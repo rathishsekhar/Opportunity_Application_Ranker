@@ -1,0 +1,7 @@
+#DVC
+.dvc/
+.dvc/lock
+.dvcignore
+.dvcconfig
+.DS_Store
+*/.DS_Store
