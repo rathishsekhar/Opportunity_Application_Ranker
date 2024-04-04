@@ -1,7 +1,12 @@
-#DVC
+# DVC
 .dvc/
 .dvc/lock
 .dvcignore
 .dvcconfig
 .DS_Store
 */.DS_Store
+
+# Ignore data files
+/inputs/data/raw/*
+/inputs/data/processed/*
+/inputs/data/interim/*
