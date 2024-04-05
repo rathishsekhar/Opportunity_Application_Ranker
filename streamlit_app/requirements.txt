@@ -1,0 +1,10 @@
+gensim==4.3.2
+nltk==3.8.1
+numpy==1.26.4
+pandas==2.2.1
+scikit_learn==1.4.0
+streamlit==1.31.1
+streamlit_scrollable_textbox==0.0.3
+torch==2.2.1
+tqdm==4.66.2
+transformers==4.38.2
