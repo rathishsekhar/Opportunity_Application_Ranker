@@ -14,4 +14,8 @@
 # Ignore cache files
 */__pycache__/
 
+# Ignore src/getter
+src/getter/*
 
+# Ignore streamlit_app/src/getter
+streamlit_app/src/getter/*
