@@ -10,3 +10,8 @@
 /inputs/data/raw/*
 /inputs/data/processed/*
 /inputs/data/interim/*
+
+# Ignore cache files
+*/__pycache__
+
+
