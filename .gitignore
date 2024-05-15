@@ -12,7 +12,7 @@
 /inputs/data/interim/*
 
 # Ignore cache files
-*/__pycache__/
+*/__pycache__/*
 
 # Ignore src/getter
 src/getter/*
