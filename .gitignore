@@ -19,3 +19,6 @@ src/getter/*
 
 # Ignore streamlit_app/src/getter
 streamlit_app/src/getter/*
+
+# Ignore python compiled files
+*.py[cod]
