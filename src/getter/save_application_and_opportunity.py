@@ -35,7 +35,7 @@ def save_app_data(file, file_name):
     Save(pickle) the file as per the filename for the data in specific location
     """
     
-    dataloc = os.path.join(Path(os.path.realpath("")).resolve(), 'streamlit_app', 'data', 'input')
+    dataloc = os.path.join(Path(os.path.realpath("")).resolve(), 'streamlit_app_all_models', 'data', 'input')
     
     with open(dataloc + "/" + str(file_name) + ".pkl", 'wb') as f:
          pickle.dump(file, f)
