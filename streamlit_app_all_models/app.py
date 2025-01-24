@@ -34,7 +34,7 @@ model_selectbox = st.sidebar.selectbox(
 )
 
 stack_selectbox = st.sidebar.selectbox(
-    "Select how want to stack the encoded vectors", ("Horizontal", "Vertical")
+    "How to stack the encoded features?", ("Horizontal", "Vertical")
 )
 
 # Setting model and stacking methods
@@ -44,8 +44,7 @@ stack = 'horizontal' if stack_selectbox == 'Horizontal' else 'vertical'
 
 # Main function
 def main():
-
-    st.write(model, stack)
+    
     # Title
     st.title("Input Candidate Evaluation Details:")
 
