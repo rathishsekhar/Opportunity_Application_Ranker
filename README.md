@@ -1,4 +1,4 @@
-# Opportunity Application Ranker - Under Construction
+# Opportunity Application Ranker
 The project analyzes the textual data from job postings (opportunities) and applicant profiles to calculate similarity and rank applicants based on their similarity to a given job opportunity. As an exploratory project, three NLP approaches viz. word2vec, BERT based (uncased) and DistillBERT based (uncased) are employed. Further, the results of the models were subjected to an comparitive analysis to see which amongst these models can be used for scaling into a full fledged application. For the user's understanding, a locally available application, created using Streamlit library demonstrates the workings of all the three models. Later an another application is created to demonstrate the project using the most optimum model and this applcation is cloud deployed. The code and details for the optimized application will not be shared here in this document. To access the applcation code available on Github, click the following link:
 
 https://github.com/rathishsekhar/Opportunity_Application_Matching_App
